@@ -44,7 +44,6 @@ services:
     depends_on:
       - redpanda
       - mysql
-      - redis
     ports:
       - "8083:8083"
     environment:
