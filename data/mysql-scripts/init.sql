@@ -13,8 +13,8 @@ create table leaderboard (
     last_modified_date datetime
 );
 insert into leaderboard (id, username, score, created_date, last_modified_date)
-values (1, 'curiouscat78', 1000, 'Payment via Net Banking', now(), now());
+values (1, 'curiouscat78', 1000, now(), now());
 insert into leaderboard (id, username, score, created_date, last_modified_date)
-values (2, 'Hokage1998', 3000, 'Payment via Debit Card', now(), now());
+values (2, 'Hokage1998', 3000, now(), now());
 insert into leaderboard (id, username, score, created_date, last_modified_date)
-values (3, 'thanos_ring23', 400, 'Payment via Credit Card', now(), now());
+values (3, 'thanos_ring23', 400, now(), now());
